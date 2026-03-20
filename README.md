@@ -4,8 +4,8 @@
 导出步骤为：Export -> Custom Export。
 设置如下图所示：
 
-<div style="text-align: center;">
-<img width="464" height="509" alt="73fc05193c176d5aea19b7894d0119a0" src="https://github.com/user-attachments/assets/a8f6a6e8-2ae8-4563-8642-ee906569745f" />
+<div align="center">
+  <img width="464" height="509" alt="73fc05193c176d5aea19b7894d0119a0" src="https://github.com/user-attachments/assets/a8f6a6e8-2ae8-4563-8642-ee906569745f" />
 </div>
 
 在本文件中，Target为目的片段，Sample为样本名。由于本数据来源为虫体实验，因此仅计算 $2^{-\Delta Cq}$ 即可。
