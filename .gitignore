@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+history/
+.venv/
+venv/
+env/
+output/*.csv
+figures/*.png
+figures/*.jpg
+figures/*.pdf
+figures/*.svg
+.DS_Store
+Thumbs.db

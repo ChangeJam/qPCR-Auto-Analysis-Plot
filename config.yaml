@@ -1,0 +1,36 @@
+# qPCR Auto Analysis — Default Configuration
+# All values can be overridden via command-line arguments.
+
+# Name of the reference (housekeeping) gene in the Target column
+reference_gene: "Rp49"
+
+# Control group label — used to identify the control for normalization and t-tests
+control_group: "DMSO"
+
+# Optional: map raw group names (from sample names) to display labels
+# group_labels:
+#   PFOA001: "PFOA 0.01mg/L"
+#   PFOA1: "PFOA 1mg/L"
+
+# Character that separates the group name from the replicate number in Sample names
+# e.g. "DMSO#1" -> group="DMSO", replicate="1"
+replicate_separator: "#"
+
+# Number of metadata rows to skip when reading the Bio-Rad CSV export
+skiprows: 19
+
+# Columns to keep from the raw CSV (mapped by column name expected in the file)
+use_cols:
+  - "Target"
+  - "Sample"
+  - "Cq"
+
+# Figure settings
+figure:
+  width: 8
+  height: 6
+  dpi: 150
+  palette: "coolwarm"
+  bar_alpha: 0.8
+  strip_alpha: 0.6
+  strip_size: 6
